@@ -1,14 +1,8 @@
-# Welcome to Chainlit! 🚀🤖
+## 영어 회화 공부 Web 제작 🤗
+- Version : 0.1.
+- 최종 수정일 : 2024.02.03
+- 작성자 : https://github.com/ccw7463
 
-Hi there, Developer! 👋 We're excited to have you on board. Chainlit is a powerful tool designed to help you prototype, debug and share applications built on top of LLMs.
-
-## Useful Links 🔗
-
-- **Documentation:** Get started with our comprehensive [Chainlit Documentation](https://docs.chainlit.io) 📚
-- **Discord Community:** Join our friendly [Chainlit Discord](https://discord.gg/k73SQ3FyUh) to ask questions, share your projects, and connect with other developers! 💬
-
-We can't wait to see what you create with Chainlit! Happy coding! 💻😊
-
-## Welcome screen
-
-To modify the welcome screen, edit the `chainlit.md` file at the root of your project. If you do not want a welcome screen, just leave this file empty.
+### 제작관련 참고 사이트 🔗
+- [Chainlit Documentation](https://docs.chainlit.io)
+- [Langchain Documentation](https://python.langchain.com/docs/get_started/introduction)
