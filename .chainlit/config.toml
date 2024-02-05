@@ -34,11 +34,14 @@ multi_modal = true
     # language = "en-US"
 
 [UI]
+# This should be a google font url
+custom_font = "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+
 # Name of the app and chatbot.
-name = "Chatbot"
+name = "English Tutor"
 
 # Show the readme while the thread is empty.
-show_readme_as_default = true
+show_readme_as_default = false
 
 # Description of the app and chatbot. This is used for HTML tags.
 # description = ""
@@ -59,25 +62,30 @@ hide_cot = false
 # The CSS file can be served from the public directory or via an external link.
 # custom_css = "/public/test.css"
 
+
 # Override default MUI light theme. (Check theme.ts)
 [UI.theme.light]
-    #background = "#FAFAFA"
-    #paper = "#FFFFFF"
+    background = "#FAFDFF"  
+    paper = "#FFFFFF"      
 
     [UI.theme.light.primary]
-        #main = "#F80061"
-        #dark = "#980039"
-        #light = "#FFE7EB"
-
+        main = "#4FC3F7"   
+        dark = "#0288D1"   
+        light = "#B2EBF2"  
+        
 # Override default MUI dark theme. (Check theme.ts)
 [UI.theme.dark]
-    #background = "#FAFAFA"
-    #paper = "#FFFFFF"
+    #background = "#E0F7FA"  
+    #paper = "#F1F8E9"      
 
     [UI.theme.dark.primary]
-        #main = "#F80061"
-        #dark = "#980039"
-        #light = "#FFE7EB"
+        #main = "#4FC3F7"   
+        #dark = "#0288D1"   
+        #light = "#B2EBF2"  
+
+
+[UI.theme]
+    font_family = "Inter, sans-serif"
 
 
 [meta]
